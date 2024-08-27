@@ -9,13 +9,7 @@ import {getFirestore} from "firebase/firestore";
 
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyBniakJT_nebY2OBOkKrLlxMf9skD9GXMQ",
-    authDomain: "todolisthabit.firebaseapp.com",
-    projectId: "todolisthabit",
-    storageBucket: "todolisthabit.appspot.com",
-    messagingSenderId: "979217738804",
-    appId: "1:979217738804:web:6695778ae834d84ce62e61",
-    measurementId: "G-19E8KG6YJX"
+   
   }
 
 export const FIREBASE_APP = initializeApp(firebaseConfig);
